@@ -1,3 +1,4 @@
-[submodule "frontend"]
+  url = [submodule "frontend"]
   path = frontend
-  url = ./frontend
+  url = https://github.com/levywanke/frontend
+
