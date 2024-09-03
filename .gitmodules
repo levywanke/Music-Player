@@ -1,4 +1,0 @@
-  url = [submodule "frontend"]
-  path = frontend
-  url = https://github.com/levywanke/frontend
-
