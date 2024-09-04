@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home-container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.home-container ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.home-links a {
+  font-size: 1.2em;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.home-links a:hover {
+  text-decoration: underline;
+}

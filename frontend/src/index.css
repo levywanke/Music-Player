@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-style: italic;
+}
